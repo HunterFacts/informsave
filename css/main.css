@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff2');
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+    /*min-height: 100vh;*/
+.page-footer {
+    background-color: #3D8DAE;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+.title-word-4 {
+--color-1: #3D8DAE;
+--color-2: #DF8453;
+--color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+/* Here are just some visual styles. 🖌 */
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 6em;
+  text-transform: uppercase;
+}
+
+.start-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.start-block h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  background-color: #3D8DAE;
+}
+.start-block .btn {
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  font-size: 2em;
+  background-color: #3D8DAE;
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+.form {
+  width: 50%;
+}
+.btn-add-activ-container, .btn-add-menace-container {
+  width: 100%;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 10px;
+}
+
+.table-otchet {
+  width: 80%;
+}
+
+.table-otchet table {
+  border: 1px solid gray;
+}
+.table-otchet table th {
+  border: 1px solid gray;
+  text-align: center;
+}
+.table-otchet table tr {
+  border: 1px solid gray;
+}
+.table-otchet table td {
+  border: 1px solid gray;
+}
